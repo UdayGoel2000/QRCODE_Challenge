@@ -1,0 +1,70 @@
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+
+/* -------------------------
+color
+ ---------------------------*/
+ :root{
+    --color-white: hsl(0, 0%, 100%);
+    --color-lightgrey: hsl(212, 45%, 89%);
+    --color-Grayish-blue: hsl(220, 15%, 55%);
+    --color-Dark-blue: hsl(218, 44%, 22%);
+ }
+
+/* -------------------------
+font
+ ---------------------------*/
+ /* -------------------------
+base styles
+ ---------------------------*/
+ /* ::before,
+ ::after{
+    box-sizing: border-box;
+ } */
+ /* -------------------------
+main
+ ---------------------------*/
+ body{
+    background-color: var(--color-lightgrey);
+    /* font-family: outfit; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: auto;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+ }
+ img{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 1.1rem;
+ }
+  /* -------------------------
+QR card
+ ---------------------------*/
+ main{
+    background-color: var(--color-white);
+    max-width: 320px;
+    border-radius: 0.63rem;
+    text-align: center;
+    box-shadow: 1rem 1rem rgba(0, 0, 0, 0.005);
+ }
+ h1{
+    font-size: 1.3rem;
+    padding: 0rem 2rem 0rem 2rem;
+    color: var(--color-Dark-blue);
+ }
+ p{
+    font-size: 0.9rem;
+    padding: 0rem 2rem 1rem 2rem;
+    color: var(--color-Grayish-blue);
+ }
